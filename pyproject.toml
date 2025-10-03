@@ -1,0 +1,15 @@
+[project]
+name = "gamblers-ruin-blog-marimo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "marimo[recommended]>=0.16.4",
+    "numpy>=2.3.3",
+    "pandas>=2.3.3",
+    "plotly>=6.3.1",
+]
+
+[tool.marimo.runtime]
+output_max_bytes = 60000000
